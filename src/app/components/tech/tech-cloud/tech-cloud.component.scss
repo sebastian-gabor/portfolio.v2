@@ -1,0 +1,18 @@
+.cloud-tech_holder {
+  height: 15rem;
+  margin-top: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.16);
+}
+
+.cloud-tech_list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: left;
+}
+
+.cloud-tech_item {
+  list-style-type: none;
+  left: 0;
+  margin-top: 2.5rem;
+}
