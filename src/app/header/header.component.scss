@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.brand {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.navbar-list {
+  left: 0;
+  display: flex;
+}
+
+.navbar-item {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+a {
+  cursor: pointer;
+}

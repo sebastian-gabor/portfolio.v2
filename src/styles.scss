@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Popins:wght@400;600;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  font-family: Popins, sans-serif;
+  padding: 0 7.5rem;
+  background-color: #f6f6f6;
+  color: #5e5e63;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+app-main {
+  position: relative;
+  height: 100vh;
+  top: -7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  // z-index: -1;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  // z-index: -1;
+}
