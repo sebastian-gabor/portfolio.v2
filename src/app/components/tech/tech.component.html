@@ -1,23 +1,10 @@
-<h1 class="section-title">Tech Section</h1>
-
-<div class="list-title_holder">
-  <ul class="tech-list">
-    <li
-      class="tech-item"
-      [ngClass]="{ active: loadFeature === 'web' }"
-      (click)="onClick('web')"
-    >
-      Web
-    </li>
-    <li
-      class="tech-item"
-      [ngClass]="{ active: loadFeature !== 'web' }"
-      (click)="onClick('cloud')"
-    >
-      Cloud
-    </li>
-  </ul>
+<div class="tech-container">
+  <div class="tech-header">
+    <h1 class="tech-title" id="tech">Tech stack</h1>
+    <app-web-cloud-option
+      (featureLoaded)="onNavigate($event)"
+    ></app-web-cloud-option>
+  </div>
+  <app-tech-web *ngIf="loadFeature === 'web'"></app-tech-web>
+  <app-tech-cloud *ngIf="loadFeature !== 'web'"></app-tech-cloud>
 </div>
-
-<app-tech-web *ngIf="loadFeature === 'web'"></app-tech-web>
-<app-tech-cloud *ngIf="loadFeature !== 'web'"></app-tech-cloud>

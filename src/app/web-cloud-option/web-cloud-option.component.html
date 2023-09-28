@@ -1,0 +1,18 @@
+<div class="list-title_holder">
+  <ul class="tech-list">
+    <li
+      class="tech-item"
+      [ngClass]="{ active: loadedFeature === 'web' }"
+      (click)="onRender('web')"
+    >
+      Web
+    </li>
+    <li
+      class="tech-item"
+      [ngClass]="{ active: loadedFeature !== 'web' }"
+      (click)="onRender('cloud')"
+    >
+      Cloud
+    </li>
+  </ul>
+</div>

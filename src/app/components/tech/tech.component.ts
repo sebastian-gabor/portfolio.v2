@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class TechComponent {
   loadFeature = 'web';
 
-  onClick(feature: string) {
+  onNavigate(feature: string) {
     this.loadFeature = feature;
   }
 }

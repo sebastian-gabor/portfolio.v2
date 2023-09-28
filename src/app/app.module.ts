@@ -11,6 +11,7 @@ import { TechComponent } from './components/tech/tech.component';
 import { WorkComponent } from './components/work/work.component';
 import { TechCloudComponent } from './components/tech/tech-cloud/tech-cloud.component';
 import { TechWebComponent } from './components/tech/tech-web/tech-web.component';
+import { WebCloudOptionComponent } from './web-cloud-option/web-cloud-option.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TechWebComponent } from './components/tech/tech-web/tech-web.component'
     WorkComponent,
     TechCloudComponent,
     TechWebComponent,
+    WebCloudOptionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

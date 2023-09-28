@@ -1,18 +1,23 @@
 .web-tech_holder {
-  height: 15rem;
   margin-top: 1rem;
-  border-radius: 16px;
-  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.16);
+  padding: 0 10rem;
 }
 
 .web-tech_list {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  text-align: left;
+  // display: grid;
+  // grid-template-columns: auto auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .web-tech_item {
+  font-weight: 600;
   list-style-type: none;
-  left: 0;
-  margin-top: 2.5rem;
+  flex-grow: 1;
+  flex-basis: 200;
+  margin: 2.5rem;
+}
+
+img {
+  width: 4rem;
 }

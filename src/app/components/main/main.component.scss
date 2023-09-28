@@ -1,7 +1,16 @@
 .main-title {
   margin-bottom: 2.5rem;
+  font-size: 3rem;
+  font-weight: 900;
+  background-image: linear-gradient(141deg, #adf1e0, #8075ff 28%, #ff7171 98%);
+  text-align: center;
+  letter-spacing: -1.25px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main-text {
   padding: 0 12.5rem;
+  font-size: 1.25rem;
 }
