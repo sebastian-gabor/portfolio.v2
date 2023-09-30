@@ -1,0 +1,19 @@
+.cloud-projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.cloud-project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cloud-project {
+  font-weight: 600;
+  list-style-type: none;
+  flex-grow: 1;
+  flex-basis: 200;
+  margin: 3rem 5rem 0 5rem;
+}

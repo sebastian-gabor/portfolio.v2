@@ -8,9 +8,16 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class WebCloudOptionComponent {
   @Output() featureLoaded = new EventEmitter<string>();
   loadedFeature = 'web';
+  buttonLeft: string = '0';
 
   onRender(feature: string) {
     this.featureLoaded.emit(feature);
     this.loadedFeature = feature;
+
+    if (feature === 'web') {
+      this.buttonLeft = '0';
+    } else {
+      this.buttonLeft = '6rem';
+    }
   }
 }
