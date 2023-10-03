@@ -15,6 +15,7 @@ import { WebCloudOptionComponent } from './components/web-cloud-option/web-cloud
 import { ProjectComponent } from './components/work/project/project.component';
 import { WebProjectsComponent } from './components/work/web-projects/web-projects.component';
 import { CloudProjectsComponent } from './components/work/cloud-projects/cloud-projects.component';
+import { ClickedOutsideDirective } from './directives/clicked-outside.directive';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CloudProjectsComponent } from './components/work/cloud-projects/cloud-p
     ProjectComponent,
     WebProjectsComponent,
     CloudProjectsComponent,
+    ClickedOutsideDirective,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

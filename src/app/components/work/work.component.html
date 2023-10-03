@@ -1,9 +1,9 @@
-<div class="work-container">
+<div class="work-container" id="work">
   <div class="work-header">
     <app-web-cloud-option
       (featureLoaded)="onNavigate($event)"
     ></app-web-cloud-option>
-    <h1 class="work-title" id="work">Work</h1>
+    <h1 class="work-title">Work</h1>
   </div>
 
   <app-web-projects *ngIf="loadFeature === 'web'"></app-web-projects>

@@ -10,6 +10,7 @@
   border: none;
   border-radius: 100px;
   box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.16);
+  z-index: 2000;
 }
 
 .tech-list {
@@ -25,7 +26,7 @@
   font-weight: 600;
   list-style-type: none;
   cursor: pointer;
-  z-index: 2;
+  z-index: 20002;
 }
 
 .background-button {
@@ -34,7 +35,7 @@
   height: 2rem;
   border-radius: 16px;
   background-color: #f7f7f7;
-  z-index: 1;
+  z-index: 2001;
   transition: all 0.2s ease-in-out;
 }
 
