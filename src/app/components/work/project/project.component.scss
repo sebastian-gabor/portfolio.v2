@@ -1,7 +1,131 @@
-.project-container {
-  height: 15rem;
-  width: 15rem;
+.project {
+  position: relative;
+  max-width: 300px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.16);
+  z-index: 1;
+}
+.project-image_holder {
+  background: #fff;
+}
+.project-image {
+  width: 300px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 1rem 1rem;
+  letter-spacing: -0.05em;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 6px 30px 8px;
+  border-radius: 4px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.16);
+  transition: all 0.1s 0s ease-out;
+}
+
+.btn:hover {
+  background: #00a2ad;
+  box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+  transform: translateY(-2px);
+  transition: all 0.25s 0s ease-out;
+}
+.card-actions a.btn {
+  cursor: not-allowed;
+}
+
+.btn:active {
+  background: #008a93;
+  box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
+  transform: translate3d(0, 1px, 0);
+  transition: all 0.025s 0s ease-out;
+}
+
+.toggle-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  padding: 0;
+  border-radius: 100%;
+}
+
+span {
+  position: absolute;
+  background: #5e5e63;
+  width: 14px;
+  height: 3px;
+  transition: all 0.2s 0s ease-in;
+}
+
+span.left {
+  right: 13.5px;
+  transform: rotate(45deg);
+}
+span.right {
+  left: 13.5px;
+  transform: rotate(-45deg);
+}
+
+.project-description {
+  position: relative;
+  padding: 0 15px 10px;
+  font-size: 0.9em;
+}
+
+.card-actions {
+  text-align: center;
+  padding: 10px 15px 20px;
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+}
+
+.card-flap {
+  position: absolute;
+  background: #d9d9d9;
+  width: 100%;
+  transform-origin: top;
+  transform: rotateX(-90deg);
+}
+
+.flap1 {
+  transition: all 0.3s 0.3s ease-out;
+  z-index: -1;
+}
+
+.flap2 {
+  transition: all 0.3s 0s ease-out;
+  z-index: -2;
+}
+
+.project.show div.project-title a.toggle-info {
+  background: #ff6666;
+}
+
+.project.show div.project-title a.toggle-info span {
+  top: 15px;
+}
+
+.project.show div.project-title a.toggle-info span.left {
+  right: 9px;
+}
+
+.project.show div.project-title a.toggle-info span.right {
+  left: 9px;
+}
+
+.project.show .card-flap {
   background-color: #fff;
-  border-radius: 16px;
-  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.16);
+  transform: rotateX(0deg);
+}
+
+.project.show .flap1 {
+  transition: all 0.3s 0s ease-out;
+}
+.project.show .flap2 {
+  transition: all 0.3s 0.2s ease-out;
 }

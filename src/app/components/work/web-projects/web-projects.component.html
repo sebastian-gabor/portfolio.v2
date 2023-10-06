@@ -1,7 +1,7 @@
 <div class="web-projects-container">
   <ul class="web-project-list">
-    <li class="web-project"><app-project></app-project></li>
-    <li class="web-project"><app-project></app-project></li>
-    <li class="web-project"><app-project></app-project></li>
+    <li class="web-project" *ngFor="let project of projectData">
+      <app-project [projectData]="project"></app-project>
+    </li>
   </ul>
 </div>
