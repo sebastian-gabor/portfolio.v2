@@ -23,3 +23,42 @@ img {
   margin-top: 2rem;
   width: 10rem;
 }
+
+@media screen and (max-width: 400px) {
+  .cloud-tech_item {
+    margin: 0;
+  }
+
+  img {
+    width: 2rem;
+  }
+
+  .certificate {
+    width: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cloud-tech_holder {
+    padding: 0;
+  }
+  .cloud-tech_item {
+    margin: 1rem 2rem;
+  }
+
+  img {
+    width: 3rem;
+  }
+
+  .certificate {
+    width: 7rem;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .cloud-tech_holder{
+    padding: 0;
+  }
+
+
+}

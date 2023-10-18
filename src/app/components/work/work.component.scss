@@ -1,5 +1,5 @@
 .work-container {
-  height: 100vh;
+  height: 115vh;
   margin-top: -5rem;
   margin-bottom: 2.5rem;
   padding-top: 5rem;
@@ -8,4 +8,20 @@
 .work-header {
   display: grid;
   grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 800px) {
+  .work-container {
+    margin-top: 5rem;
+    height: 100vh;
+  }
+
+}
+
+@media screen and (min-width: 800px)
+{
+  .work-container{
+    height: 115vh;
+    margin-top: 5rem;
+  }
 }

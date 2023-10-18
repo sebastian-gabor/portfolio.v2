@@ -9,22 +9,22 @@ import { Project } from '../project.model';
 export class WebProjectsComponent {
   projectData = [
     new Project(
-      'Forkify',
+      'Project',
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
       '../../../../assets/images/work.png',
       '#'
     ),
     new Project(
-      'Recipe',
+      'Project',
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
       '../../../../assets/images/work.png',
       '#'
     ),
-    new Project(
-      'Recipe',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
-      '../../../../assets/images/work.png',
-      '#'
-    ),
+    // new Project(
+    //   'Project',
+    //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+    //   '../../../../assets/images/work.png',
+    //   '#'
+    // ),
   ];
 }

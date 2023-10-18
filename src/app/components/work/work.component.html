@@ -6,6 +6,6 @@
     <h1 class="work-title">Work</h1>
   </div>
 
-  <app-web-projects *ngIf="loadFeature === 'web'"></app-web-projects>
+  <app-web-projects id="web" *ngIf="loadFeature === 'web'"></app-web-projects>
   <app-cloud-projects *ngIf="loadFeature !== 'web'"></app-cloud-projects>
 </div>

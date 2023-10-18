@@ -21,3 +21,43 @@
 img {
   width: 4rem;
 }
+
+@media screen and (max-width: 400px) {
+  .web-tech_item {
+    margin: 0;
+  }
+
+  img {
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .web-tech_holder {
+    padding: 0;
+  }
+  .web-tech_item {
+    margin: 1rem 2rem;
+  }
+
+  img {
+    width: 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .web-tech_item {
+    margin: 1rem 2.3rem;
+  }
+
+  img {
+    width: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .web-tech_holder {
+    padding: 0;
+  }
+
+}

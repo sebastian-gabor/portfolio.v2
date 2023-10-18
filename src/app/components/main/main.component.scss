@@ -14,3 +14,25 @@
   padding: 0 12.5rem;
   font-size: 1.25rem;
 }
+
+@media screen and (max-width: 500px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .main-text {
+    font-size: 1rem;
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+
+  .main-text {
+    font-size: 1.25rem;
+    padding: 0 1.5rem;
+  }
+}
